@@ -536,7 +536,25 @@
           jumbo.classList.remove('bg-dark')
           jumbo.style.backgroundColor = 'red'
         }
+
     
+        // EX14) Write a function to remove all the links under "Elsewhere"
+    function removeElsewhereLinks() {
+        const elsewhere = document.querySelectorAll('aside div:nth-child(3) li')
+              for(link of elsewhere) {
+                  link.remove()
+                }
+              }
+    
+
+      // EX15) Write a function to change the column size for post headings
+
+
+      // EX16) Write a function to remove the "Search" magnifying glass icon
+          function removeMgGlass() {
+              const glass = document.querySelector('svg')
+                    glass.remove()
+                   }
     </script>
   </body>
 </html>
