@@ -513,6 +513,30 @@
         EX19) Write a function and attach it to the "Older" button, to remove the last Blog Post
         EX20) Write an alert with the name of the author every time the user hover with the mouse over an author name
     */
+    // EX11) Write a function to add a new link into the navbar
+    function newNavBarLink() {
+            let navbar = document.querySelector('.nav')
+            let link = document.createElement('a')
+            link.innerText = 'Hello'
+            link.classList.add('p-2')
+            link.classList.add('text-muted')
+            navbar.appendChild(link)
+        }
+
+     //  EX12) Write a function to change the color of the main title
+
+    function titleColor() {
+        let title = document.querySelector('h1')
+         title.style.color = 'blue'
+      }
+
+      // EX13) Write a function to change the background of the jumbotron
+    function jumboColor() {
+          let jumbo = document.querySelector('.jumbotron')
+          jumbo.classList.remove('bg-dark')
+          jumbo.style.backgroundColor = 'red'
+        }
+    
     </script>
   </body>
 </html>
